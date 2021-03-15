@@ -1,3 +1,3 @@
-Insert Into Factories Values
+INSERT INTO Factories VALUES
 (1,N'Фабрика мебели "Дубок"',1000)
 ,(2,N'Группа компаний "Альянс"',1200);

@@ -1,10 +1,11 @@
-Create Table Orders
+CREATE TABLE Orders
 (
-	ID Int Not Null,
+	ID INT NOT NULL,
 	CustomerID INT FOREIGN KEY REFERENCES [Customers] (ID),
 	ProductID INT FOREIGN KEY REFERENCES [Products] (ID),
-	[Value] Int Not Null,
-	OrderCost Float Not Null,
-	DateOrder Datetime Not Null,
-	IndOrd Int
+	[Value] INT NOT NULL,
+	OrderCost MONEY NOT NULL,
+	DateOrder DATETIME NOT NULL,
+	IndOrd INT
+	PRIMARY KEY (ID)
 )

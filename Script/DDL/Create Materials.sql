@@ -1,7 +1,7 @@
-Create Table Materials
+CREATE TABLE Materials
 (
-	ID Int Not Null,
-	MaterialName Varchar(100) Not Null,
-	MaterialPrice Float not null,
-	Primary Key (ID)
+	ID INT NOT NULL,
+	MaterialName NVARCHAR(100) NOT NULL,
+	MaterialPrice MONEY NOT NULL,
+	PRIMARY KEY (ID)
 )

@@ -1,4 +1,4 @@
-Insert Into Customers Values
+INSERT INTO Customers VALUES
 (1, N'Пархомчук Александр Николаевич')
 ,(2, N'Иванцов Владимир Александрович')
 ,(3, N'Абрамов Александр Валерьевич')

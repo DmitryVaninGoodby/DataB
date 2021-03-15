@@ -1,7 +1,7 @@
-Create Table Furniture
+CREATE TABLE Furniture
 (
-	ID Int Not Null,
-	FurnitureType Varchar(100) Not Null,
-FurnitureCost Float not null,
-	Primary Key (ID)
+	ID INT NOT NULL,
+	FurnitureType NVARCHAR(100) NOT NULL,
+FurnitureCost MONEY NOT NULL,
+	PRIMARY KEY (ID)
 )

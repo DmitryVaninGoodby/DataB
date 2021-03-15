@@ -1,6 +1,6 @@
-Create Table Customers
+CREATE TABLE Customers
 (
-	ID Int Not Null,
-	CustomerName Varchar(100) Not Null,
-	Primary Key (ID)
+	ID INT NOT NULL,
+	CustomerName NVARCHAR(100) NOT NULL,
+	PRIMARY KEY (ID)
 )

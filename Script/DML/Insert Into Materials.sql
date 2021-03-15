@@ -1,4 +1,4 @@
-Insert Into Materials Values
+INSERT INTO Materials VALUES
 (1,N'Кедр',551)
 ,(2,N'Лиственница',220)
 ,(3,N'Осина',480)
