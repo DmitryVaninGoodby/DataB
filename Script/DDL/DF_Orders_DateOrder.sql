@@ -1,0 +1,4 @@
+ALTER TABLE Orders  
+ADD CONSTRAINT DF_Orders_DateOrder
+DEFAULT (GETDATE())
+FOR DateOrder;

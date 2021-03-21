@@ -1,9 +1,10 @@
 CREATE TABLE Products
 (
-	ID INT NOT NULL,
-	FactoryID INT FOREIGN KEY REFERENCES [Factoryes] (ID),
-	MaterialID INT FOREIGN KEY REFERENCES [Materials] (ID),
-	FurnitureID INT FOREIGN KEY REFERENCES [Furniture] (ID),
-	ProductCost MONEY NOT NULL
-	PRIMARY KEY (ID)
+	ID INT NOT NULL
+	    CONSTRAINT PK_Products
+        PRIMARY KEY
+	,FactoryID INT FOREIGN KEY REFERENCES [Factories] (ID)
+	,MaterialID INT FOREIGN KEY REFERENCES [Materials] (ID)
+	,FurnitureID INT FOREIGN KEY REFERENCES [Furniture] (ID)
+	,ProductCost MONEY NOT NULL
 )

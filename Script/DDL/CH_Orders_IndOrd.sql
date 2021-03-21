@@ -1,4 +1,3 @@
 ALTER TABLE Orders
-ADD CONSTRAINT check_zero_discount
+ADD CONSTRAINT CH_Orders_IndOrd
 CHECK (IndOrd >= 0);
---
