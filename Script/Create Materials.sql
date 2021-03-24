@@ -1,0 +1,7 @@
+CREATE TABLE Materials
+(
+	ID INT NOT NULL,
+	MaterialName NVARCHAR(100) NOT NULL,
+	MaterialPrice MONEY NOT NULL,
+	PRIMARY KEY (ID)
+)

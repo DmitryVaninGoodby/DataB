@@ -1,0 +1,3 @@
+ALTER TABLE Orders
+ADD CONSTRAINT CH_Orders_IndOrd
+CHECK (IndOrd >= 0);
